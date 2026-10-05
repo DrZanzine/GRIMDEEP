@@ -1,0 +1,43 @@
+# matériaux de lava_golem
+
+newmtl basalt
+Ka 0.1 0.1 0.1
+Kd 0.130 0.110 0.100
+Ks 0.080 0.080 0.080
+Ns 12.0
+d 1.0
+illum 2
+
+newmtl lava
+Ka 0.1 0.1 0.1
+Kd 1.000 0.360 0.050
+Ks 0.200 0.100 0.050
+Ns 20.0
+Ke 1.500 0.300 0.040
+d 1.0
+illum 2
+
+newmtl basalt_light
+Ka 0.1 0.1 0.1
+Kd 0.250 0.200 0.170
+Ks 0.080 0.080 0.080
+Ns 12.0
+d 1.0
+illum 2
+
+newmtl lava_bright
+Ka 0.1 0.1 0.1
+Kd 1.000 0.800 0.250
+Ks 0.300 0.300 0.200
+Ns 20.0
+Ke 1.900 0.800 0.150
+d 1.0
+illum 2
+
+newmtl obsidian
+Ka 0.1 0.1 0.1
+Kd 0.030 0.030 0.045
+Ks 0.900 0.900 1.000
+Ns 150.0
+d 1.0
+illum 2
