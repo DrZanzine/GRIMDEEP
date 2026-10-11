@@ -1,0 +1,32 @@
+GRIMDEEP est un jeu d'exploration souterraine en 3D, écrit en C++17 avec OpenGL 4.3, sans moteur de jeu. Cette présentation technique de 5 minutes parcourt le jeu critère par critère : modèles 3D, éclairage, caméra, textures, composition de la scène, animation, structure du code et effets spéciaux. Les extraits de code à l'écran sont tirés des vrais fichiers du projet.
+
+⏱️ CHAPITRES
+0:00 Introduction
+0:07 Le jeu
+0:32 Chargement de modèles 3D
+1:10 Système d'éclairage
+1:40 Caméra virtuelle
+2:05 Textures et matériaux
+2:35 Composition de la scène
+3:07 Animation et interactivité
+3:55 Structure du code
+4:12 Effets spéciaux
+4:51 Conclusion
+
+🔧 CE QUE MONTRE LA VIDÉO
+• Chargeur OBJ écrit sans bibliothèque, modèles articulés par groupes (araignée, golem de lave…)
+• Éclairage par pixel : jusqu'à 32 lumières Blinn-Phong + Fresnel, ombres en cube maps pour les 4 lumières les plus proches
+• Rendu HDR avec halo lumineux (bloom)
+• Caméra subjective à 76° avec balancement de tête, mode vol libre
+• Textures procédurales (aucune image chargée), mipmaps et filtrage anisotrope, plus de 25 matériaux
+• Monde généré à partir d'une graine : 5 biomes avec leur ambiance et leur musique
+• Rats animés, décor destructible, ennemis avec ragdoll (intégration de Verlet)
+• Reflets dans les flaques, particules, explosion de dynamite, effet de dissolution
+
+🛠️ TECHNOLOGIES
+C++17 · OpenGL 4.3 · GLSL · GLFW · GLEW · GLM · WinMM
+Musique et bruitages synthétisés par le jeu lui-même : aucune musique sous licence.
+
+🎓 Projet réalisé dans le cadre d'un cours d'OpenGL.
+
+#OpenGL #GameDev #Cpp

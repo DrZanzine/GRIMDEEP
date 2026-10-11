@@ -1,0 +1,21 @@
+# Produits de compilation
+build/
+*.exe
+*.o
+
+# Réglages propres à chaque joueur (recréés automatiquement)
+settings.ini
+
+# Captures d'écran prises en jeu (F12)
+capture_*.png
+
+# Python
+__pycache__/
+
+# Éditeurs
+.vscode/
+.idea/
+
+# Vidéos (publiées sur YouTube, trop lourdes pour GitHub)
+*.mp4
+*.m4a

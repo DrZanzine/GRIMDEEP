@@ -1,0 +1,1 @@
+GRIMDEEP,OpenGL,OpenGL 4.3,C++,C++17,GLSL,shaders,jeu vidéo 3D,développement de jeu,gamedev,moteur de jeu,programmation graphique,infographie 3D,rendu 3D,éclairage Blinn-Phong,shadow mapping,HDR,bloom,génération procédurale,textures procédurales,modèles OBJ,ragdoll,particules,projet étudiant,présentation technique
